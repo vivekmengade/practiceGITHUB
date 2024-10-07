@@ -14,6 +14,7 @@ public class Switch {
 		case 3 :System.out.println("Tuesday");
 		break;
 		
+		
 		case 4 :System.out.println("Wednesday");
 		break;
 		
