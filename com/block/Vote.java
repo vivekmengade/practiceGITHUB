@@ -7,5 +7,5 @@ public class Vote{
     	}else {
     		return "Eligible for vote";
     	}
-    }
+    } 
 }

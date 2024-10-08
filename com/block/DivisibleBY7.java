@@ -12,5 +12,5 @@ public class DivisibleBY7 {
 		DivisibleBY7 Check = new DivisibleBY7();
 		String x = Check.EvenOdd(6);
 		System.out.println(x);
-	}
+	} 
 }

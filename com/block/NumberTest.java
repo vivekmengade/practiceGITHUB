@@ -5,5 +5,5 @@ public class NumberTest {
 		CheckNo number= new CheckNo();
 		String No = number.NO(-10);
 		System.out.println(No);
-	}
+	} 
 }

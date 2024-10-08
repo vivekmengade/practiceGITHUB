@@ -5,5 +5,5 @@ public class Test {
 		Vote t1= new Vote();
 		String x = t1.Age(15);
 		System.out.println(x);
-	}
+	} 
 }

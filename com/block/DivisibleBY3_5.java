@@ -11,6 +11,6 @@ public class DivisibleBY3_5 {
 	public static void main(String args[]) {
 		DivisibleBY3_5 Check = new DivisibleBY3_5();
 		String x = Check.DivisibleBY3_5(15);
-		System.out.println(x);
+		System.out.println(x); 
 	}
 }

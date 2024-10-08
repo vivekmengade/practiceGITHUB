@@ -13,5 +13,5 @@ public class GreaterNo {
 	public static void main(String args[]) {
 		GreaterNo Check =new GreaterNo();
 		Check.Num(10, 50, 60);
-	}
+	} 
 }

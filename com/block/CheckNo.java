@@ -9,5 +9,5 @@ public class CheckNo {
 		}else {
 			return "negative";
 		}
-	}
+	} 
 }

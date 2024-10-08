@@ -14,4 +14,4 @@ public class MinNumber {
 		MinNumber Check =new MinNumber();
 		Check.Num(70, 50, 60);
 	}
-}
+} 
