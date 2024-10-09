@@ -3,10 +3,11 @@ package com.block;
 public class EvenOdd {
 	public String EvenOdd(int a) {
 		if(a % 2 == 0) {
-			return a;
+//			return a;
 		}else {
 			return "Odd Number";
 		}
+		return null;
 	}
 	public static void main(String args[]) {
 		EvenOdd Check = new EvenOdd();
