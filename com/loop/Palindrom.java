@@ -18,6 +18,6 @@ public class Palindrom {
 		}
 	}
 	public static void main(String args[]) {
-		Palindrom.Palindrom(252);
+		Palindrom.Palindrom(352);
 	}
 }
