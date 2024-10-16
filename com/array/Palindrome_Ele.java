@@ -20,7 +20,7 @@ public class Palindrome_Ele {
 		System.out.println("Enter the Size of Array");
 		int size=sc.nextInt();
 		a= new int[size];
-		for(int i=0; i<size;) {
+		for(int i=0; i<a.length;) {
 			System.out.println("enter "+i+" ELement  Of Array");
 			 ele = sc.nextInt();
 			 int x=Palindrome_Ele.check(ele);

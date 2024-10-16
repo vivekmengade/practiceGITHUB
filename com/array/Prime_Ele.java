@@ -13,22 +13,26 @@ public class Prime_Ele {
 			System.out.println("Enter "+i+" Element");
 			int ele=sc.nextInt();
 			int cnt =0;
-			for(int j =2;i<=ele;i++) {
+			for(int j =1;j<=ele;j++) {
 				if(ele %2==0) {
 					cnt++;
 				}
-				if(cnt==2 || ele!=0 || ele!=1) {
+			}
+				if(cnt>=3 || ele!=0 || ele!=1) {
 					a[i]=ele;
-				}else {
-					i--;
+//					i++;
 				}
 			}
 		}
 		
-	}
+//	}
 	public static void print() {
 		for(int k=0;k<a.length;k++) {
-			System.out.print(a[k]);
+			System.out.println(a[k]);
 		}
+	}
+	public static void main(String ags[]) {
+		Prime_Ele.accept();
+		Prime_Ele.print();
 	}
 }
