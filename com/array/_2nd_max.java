@@ -11,12 +11,9 @@ public class _2nd_max {
 					a[j]=temp;
 				}
 			}
-//			if(max<a[i]) {
-//				max=a[i];
-//			}
 			System.out.print(a[i]+" ");
 		}
-		System.out.print(a[a.length-2]+" ");
+		System.out.print(a[a.length-2]);
 	}
 	public static void main (String args[]) {
 		int a[]= {11,44,22,77,33};
