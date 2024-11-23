@@ -3,12 +3,12 @@ package com.Abstraction;
 import java.util.Scanner;
 
 public class Main {
-	public static void main(String[] args) {
-		Scanner s = new Scanner(System.in);
+//	public static void main(String[] args) {
+//		Scanner s = new Scanner(System.in);
 //		Stu_Joined s = new Stu_Unjoined("vivek", 101, 90.5);
 //		s.Display();
 //		s.m1();
-		System.out.println("Enter your name= ");
+/*		System.out.println("Enter your name= ");
 		String name=s.next();
 		System.out.println("Enter your Account Number = ");
 		int no = s.nextInt();
@@ -30,5 +30,17 @@ public class Main {
 		
 		a.withdraw(W);
 		a.deposite(D);
+	}*/
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("enter subject of mail  : -");
+		String sub=sc.next();
+		System.out.println("Enter mail : -");
+		String send=sc.next();
+		System.out.println("Enter Body of mail");
+		String body=sc.next();
+		Mail E = new Email(send,sub,body);
+		E.sendmail();
 	}
 }
