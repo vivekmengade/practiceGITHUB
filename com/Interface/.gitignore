@@ -3,3 +3,7 @@
 /AudioPlayer.class
 /VideoPlayer.class
 /Main.class
+/Vehicle.class
+/AbstractVehicle.class
+/Car.class
+/Bike.class
