@@ -23,21 +23,28 @@ public class Main {
 		double SpeedB=sc.nextDouble();
 		
 		AbstractVehicle B = new Bike(BrandB,SpeedB);
+		B.getBrand(BrandB);
+		B.setBrand();
 		B.Start();
 		B.Accelerate(SpeedB);
 		B.Decelerate(SpeedB);
 		B.Stop();
+		
+		System.out.println("-----------------------");
 		
 		System.out.println("Enter Brand Of Car");
 		String BrandC=sc.next();
 		System.out.println("Enter Speed of Car");
 		double SpeedC=sc.nextDouble();
 		
-		AbstractVehicle C = new Bike(BrandC,SpeedC);
+		AbstractVehicle C = new Car(BrandC,SpeedC);
+		C.getBrand(BrandC);
+		C.setBrand();
 		C.Start();
 		C.Accelerate(SpeedC);
 		C.Decelerate(SpeedC);
 		C.Stop();
+		
 		
 	}
 }

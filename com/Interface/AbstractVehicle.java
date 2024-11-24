@@ -24,6 +24,10 @@ public abstract class AbstractVehicle implements Vehicle {
 	String getBrand(String Brand) {
 		return Brand;
 	}
+	String setBrand() {
+		System.out.println(this.Brand+" is the Brand Of Vehicle");
+		return this.Brand;
+	}
 	public AbstractVehicle(String B){
 		this.Brand=B;
 	}

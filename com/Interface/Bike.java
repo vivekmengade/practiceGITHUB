@@ -15,7 +15,7 @@ public class Bike extends AbstractVehicle{
 			this.Speed=0;
 		}
 		this.Speed+=Speed;
-		System.out.println("Speed is Decelerate = "+this.Speed);
+		System.out.println("Speed is Accelerate = "+this.Speed);
 	}
 	@Override
 	public
@@ -26,4 +26,5 @@ public class Bike extends AbstractVehicle{
 		this.Speed-=Speed;
 		System.out.println("Speed is Decelerate = "+this.Speed);
 	}
+	
 }
