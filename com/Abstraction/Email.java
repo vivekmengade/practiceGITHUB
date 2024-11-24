@@ -7,7 +7,7 @@ public class Email extends Mail{
 		super(send,sub,body);
 	}
 	@Override
-	boolean authenticationmail() {
+	boolean authenticationmail() { 
 		if(super.sendmail==null) {
 			return false;
 		}else {
