@@ -11,18 +11,28 @@ public class Fruits {
 		fruits.add("mango");
 		fruits.add(1,"Watermelon");
 		System.out.println(fruits);
-		
-		
-		List price = new ArrayList();
-		price.add(100);
-		price.add(200);
-		price.add(300);
-		price.add(1,250);
-		fruits.addAll(price);
-//		fruits.addAll(2, 2000);
-		System.out.println(price);
+		System.out.println(fruits.retainAll(fruits));
+		System.out.println(fruits.remove(3));
+		System.out.println(fruits.isEmpty());
+		System.out.println(fruits.indexOf("Apple"));
+		System.out.println(fruits.get(2));
+		fruits.contains(5);
 		System.out.println(fruits);
-		System.out.println(fruits.contains("Apple"));
-		System.out.println(fruits.get(3));
+		fruits.clear();
+		System.out.println(fruits);
+		
+		
+		
+//		List price = new ArrayList();
+//		price.add(100);
+//		price.add(200);
+//		price.add(300);
+//		price.add(1,250);
+//		fruits.addAll(price);
+////		fruits.addAll(2, 2000);
+//		System.out.println(price);
+//		System.out.println(fruits);
+//		System.out.println(fruits.contains("Apple"));
+//		System.out.println(fruits.get(3));
 	}
 }
