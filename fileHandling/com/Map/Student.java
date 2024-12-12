@@ -10,6 +10,7 @@ import java.util.TreeMap;
 
 public class Student {
 	//practice about map hashmap,  linkedhashmap, tree map
+	/*
 	public static void main(String[] args) {
 		Map<Integer, String> m1 = new HashMap<>();
 		m1.put(001, "Vivek");
@@ -82,5 +83,16 @@ public class Student {
 		System.out.println("---------------");
 		Collection<String> values4= m3.values();
 		System.out.println(values);
+	}*/
+	
+	public static void main(String[] args) {
+		System.out.println("Your are the Programer....");
+//		for(int i=0;i<=100;i++) {
+//			System.out.println("Line"+i+":--Your are the Programer....");
+//		}
+		System.out.println("i am try to shoot Video for My Insta Handle @vibe_vichar");
+		int a =10;
+		int b = 0;
+		
 	}
 }
