@@ -13,7 +13,7 @@ public class ThreadsMethod extends Thread {
 			}
 			i++;
 //			System.out.println(getId());
-//			System.out.println(getState());
+			System.out.println(getState());
 //			System.out.println(getThreadGroup());
 //			System.out.println(isAlive());
 //			System.out.println(getName());
