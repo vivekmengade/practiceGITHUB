@@ -15,5 +15,7 @@ public class StdMain {
 			}
 		};
 		s.stdInfo("Vivek",1001,70.80);
+		System.out.println("--------------------------------Next Students");
+		s.stdInfo("Amruta", 102, 80.7);
 	}
 }
