@@ -6,5 +6,7 @@ public class Main {
 		m1.start();
 		Mythread2 m2 = new Mythread2();
 		m2.start();
+		m2.start();
+		m1.start();
 	}
 }
