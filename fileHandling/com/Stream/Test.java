@@ -2,6 +2,7 @@ package com.Stream;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -40,6 +41,13 @@ public class Test {
 //		max Method
 		Integer max = l1.stream().max((a,b)->a.compareTo(b)).get();
 		System.out.println("Max = "+max);
+		
+		
+//		reduce method
+		Stream<Integer> s4 = l1.stream();
+		Optional<Integer> red = s4.reduce((a,b)-> a+b);
+		System.out.println(red);
+		System.out.println("-----------end of core java-----------");
 		
 	}
 }
