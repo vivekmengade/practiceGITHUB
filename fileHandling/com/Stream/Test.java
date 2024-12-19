@@ -19,5 +19,16 @@ public class Test {
 		Stream<Integer> s2=l1.stream();
 		List<Integer> Square= s2.map(ele -> ele*ele).collect(Collectors.toList());
 		System.out.println("Square of all elemets"+Square);
+		
+		
+		
+		Stream<Integer> s3=l1.stream();
+		List<Integer> list3= s3.sorted().collect(Collectors.toList());
+		System.out.println(list3);
+		
+		l1.stream().forEach(ele->{
+			System.out.println(ele);
+		});
+		
 	}
 }
