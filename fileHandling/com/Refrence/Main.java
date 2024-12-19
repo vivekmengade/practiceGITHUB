@@ -5,5 +5,7 @@ public class Main {
 		Student s = new Student();
 		RunInterface r = s :: StudentRunning;
 		r.run();
+		RunInterface r1 = Student::PRun;
+		r1.run();
 	}
 }
