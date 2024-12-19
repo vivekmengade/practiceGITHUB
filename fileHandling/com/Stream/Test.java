@@ -26,9 +26,20 @@ public class Test {
 		List<Integer> list3= s3.sorted().collect(Collectors.toList());
 		System.out.println(list3);
 		
+		
+//		ForEach Method
 		l1.stream().forEach(ele->{
 			System.out.println(ele);
 		});
+		
+		
+//		min Method
+		Integer res =l1.stream().min((a,b)->a.compareTo(b)).get();
+		System.out.println("min "+res);
+		
+//		max Method
+		Integer max = l1.stream().max((a,b)->a.compareTo(b)).get();
+		System.out.println("Max = "+max);
 		
 	}
 }
