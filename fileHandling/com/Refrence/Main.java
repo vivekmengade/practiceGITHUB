@@ -7,5 +7,7 @@ public class Main {
 		r.run();
 		RunInterface r1 = Student::PRun;
 		r1.run();
+		RunInterface r2 = Student :: new;
+		r2.run();
 	}
 }
